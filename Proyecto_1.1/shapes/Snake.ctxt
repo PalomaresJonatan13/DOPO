@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Snake
+comment1.params=row\ column
+comment1.target=Snake(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Snake\r\n
+comment10.params=direction
+comment10.target=int[]\ nextMove(char)
+comment11.params=direction
+comment11.target=void\ grow(char)
+comment2.params=
+comment2.target=java.util.List\ getBody()
+comment3.params=
+comment3.target=int[]\ head()
+comment4.params=
+comment4.target=int[]\ tail()
+comment5.params=
+comment5.target=int\ length()
+comment6.params=
+comment6.target=void\ makeVisible()
+comment7.params=
+comment7.target=void\ makeInvisble()
+comment8.params=
+comment8.target=boolean\ isOk()
+comment9.params=direction
+comment9.target=void\ move(char)
+numComments=12

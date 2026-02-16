@@ -49,6 +49,13 @@ public class Rectangle{
         isVisible = false;
     }
 
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+        this.xPosition = 0;
+        this.yPosition = 0;
+    }
+
     
     public int getXPosition() {
         return this.xPosition;

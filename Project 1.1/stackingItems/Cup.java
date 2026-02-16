@@ -43,7 +43,7 @@ public class Cup
         this.right.moveTo((this.height() - 1)*this.blockSize, 0);
     }
 
-    public void centerX(int leftLimit, int totalWidth) {
+    private void centerX(int leftLimit, int totalWidth) {                     // USE IN THE CONSTRUCTOR: no
         int halfWidth = this.base.getWidth()/2;
         int center = leftLimit + totalWidth/2;
         this.base.moveHorizontallyTo(center - halfWidth);
@@ -51,10 +51,10 @@ public class Cup
         this.right.moveHorizontallyTo(center + halfWidth - this.blockSize);
     }
 
-    public void moveHorizontal(int y) {
-        this.base.moveHorizontal(y);
-        this.left.moveHorizontal(y);
-        this.right.moveHorizontal(y);
+    public void moveVertical(int y) {
+        this.base.moveVertical(y);
+        this.left.moveVertical(y);
+        this.right.moveVertical(y);
     }
 
     public void makeVisible() {

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Lid
+comment0.text=\r\n\ Representa\ una\ tapa\ en\ el\ simulador\ de\ apilamiento.\r\n\ Cada\ tapa\ tiene\ un\ tama\u00F1o\ de\ bloque,\ color\ y\ puede\ ser\ visible\ o\ invisible.\r\n\ \r\n\ @author\ (William\ Santiago\ Ruiz,\ Jonatan\ Palomares)\r\n\ @version\ 2.0\ (Ciclo\ 1)\r\n
+comment1.params=color\ blockSize\ index
+comment1.target=Lid(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=void\ makeVisible()
+comment3.params=
+comment3.target=void\ makeInvisible()
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+numComments=5
